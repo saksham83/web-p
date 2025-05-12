@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimal Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-content">
+        <a href="#" class="logo">Minimal</a>
+        
+        <div class="desktop-nav">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#products" class="nav-link">Shop</a>
+          <a href="#categories" class="nav-link">Categories</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button id="cart-icon" class="cart-button">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count" class="cart-count">0</span>
+          </button>
+          
+          <button id="menu-toggle" class="menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      
+      <div id="mobile-nav" class="mobile-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#products" class="nav-link">Shop</a>
+        <a href="#categories" class="nav-link">Categories</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Modern Essentials for Everyday Living</h1>
+          <p>Discover thoughtfully designed products made with quality materials at reasonable prices.</p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+            <a href="#categories" class="btn btn-secondary">Explore Categories</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Minimalist home interior">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="categories" class="categories">
+    <div class="container">
+      <h2>Shop by Category</h2>
+      <p class="section-subtitle">Browse our collection by category</p>
+      <div class="categories-grid" id="categories-container"></div>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <p class="section-subtitle">Curated selection of our best sellers</p>
+      <div class="products-grid" id="products-container"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3 class="footer-title">Minimal</h3>
+          <p>Quality products for a simpler, more mindful life.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-title">Shop</h3>
+          <ul class="footer-links">
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-title">About</h3>
+          <ul class="footer-links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-title">Help</h3>
+          <ul class="footer-links">
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Minimal. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cart" class="cart-sidebar">
+    <div class="cart-header">
+      <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
+      <button id="close-cart" class="close-button">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div id="cart-items" class="cart-items"></div>
+    
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Subtotal:</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      <button class="checkout-button">Checkout</button>
+      <button id="continue-shopping" class="continue-button">Continue Shopping</button>
+    </div>
+  </div>
+  
+  <div id="overlay" class="overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
