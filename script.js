@@ -101,7 +101,7 @@ const categories = [
     id: 4,
     name: "Accessories",
     image:
-      "https://portfolio.investmentguruindia.com/uploads/news/Fashion2.jpg",
+      "https://img.freepik.com/free-photo/top-view-accessoires-travel-with-women-clothing-concept-white_1921-107.jpg?semt=ais_hybrid&w=740",
   },
 ];
 
