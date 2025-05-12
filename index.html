@@ -3,79 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minimal Shop</title>
+  <title>Minimal Shop | Modern Essentials for Everyday Living</title>
+  <meta name="description" content="Discover thoughtfully designed, minimalist products made with quality materials at reasonable prices. Shop home decor, lifestyle essentials, and more.">
+  <meta name="keywords" content="minimal shop, minimalist lifestyle, home essentials, modern products, online shopping, quality goods">
+  <meta name="author" content="Minimal Shop">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Minimal Shop | Modern Essentials for Everyday Living">
+  <meta property="og:description" content="Discover thoughtfully designed, minimalist products made with quality materials at reasonable prices.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Minimal Shop | Modern Essentials for Everyday Living">
+  <meta name="twitter:description" content="Thoughtfully designed products for a minimalist lifestyle.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
   <nav id="navbar">
     <div class="container">
       <div class="nav-content">
-        <a href="#" class="logo">Minimal</a>
-        
+        <a href="/" class="logo" aria-label="Minimal Shop Homepage">Minimal</a>
+
         <div class="desktop-nav">
-          <a href="#" class="nav-link">Home</a>
+          <a href="/" class="nav-link">Home</a>
           <a href="#products" class="nav-link">Shop</a>
           <a href="#categories" class="nav-link">Categories</a>
-          <a href="#" class="nav-link">About</a>
-          <a href="#" class="nav-link">Contact</a>
+          <a href="/about" class="nav-link">About</a>
+          <a href="/contact" class="nav-link">Contact</a>
         </div>
 
         <div class="nav-actions">
-          <button id="cart-icon" class="cart-button">
+          <button id="cart-icon" class="cart-button" aria-label="View cart">
             <i class="fas fa-shopping-cart"></i>
             <span id="cart-count" class="cart-count">0</span>
           </button>
-          
-          <button id="menu-toggle" class="menu-button">
+
+          <button id="menu-toggle" class="menu-button" aria-label="Toggle menu">
             <i class="fas fa-bars"></i>
           </button>
         </div>
       </div>
-      
+
       <div id="mobile-nav" class="mobile-nav">
-        <a href="#" class="nav-link">Home</a>
+        <a href="/" class="nav-link">Home</a>
         <a href="#products" class="nav-link">Shop</a>
         <a href="#categories" class="nav-link">Categories</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Contact</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
       </div>
     </div>
   </nav>
 
-  <section id="hero" class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1>Modern Essentials for Everyday Living</h1>
-          <p>Discover thoughtfully designed products made with quality materials at reasonable prices.</p>
-          <div class="hero-buttons">
-            <a href="#products" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
-            <a href="#categories" class="btn btn-secondary">Explore Categories</a>
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Modern Essentials for Everyday Living</h1>
+            <p>Discover thoughtfully designed products made with quality materials at reasonable prices.</p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+              <a href="#categories" class="btn btn-secondary">Explore Categories</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Minimalist home interior with natural light">
           </div>
         </div>
-        <div class="hero-image">
-          <img src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Minimalist home interior">
+      </div>
+    </section>
+
+    <section id="categories" class="categories">
+      <div class="container">
+        <h2>Shop by Category</h2>
+        <p class="section-subtitle">Browse our collection by category</p>
+        <div class="categories-grid" id="categories-container">
+          <!-- Categories will be loaded here -->
         </div>
       </div>
-    </div>
-  </section>
-  
-  <section id="categories" class="categories">
-    <div class="container">
-      <h2>Shop by Category</h2>
-      <p class="section-subtitle">Browse our collection by category</p>
-      <div class="categories-grid" id="categories-container"></div>
-    </div>
-  </section>
+    </section>
 
-  <section id="products" class="products">
-    <div class="container">
-      <h2>Featured Products</h2>
-      <p class="section-subtitle">Curated selection of our best sellers</p>
-      <div class="products-grid" id="products-container"></div>
-    </div>
-  </section>
+    <section id="products" class="products">
+      <div class="container">
+        <h2>Featured Products</h2>
+        <p class="section-subtitle">Curated selection of our best sellers</p>
+        <div class="products-grid" id="products-container">
+          <!-- Products will be loaded here -->
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
@@ -84,12 +110,12 @@
           <h3 class="footer-title">Minimal</h3>
           <p>Quality products for a simpler, more mindful life.</p>
           <div class="social-icons">
-            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
           </div>
         </div>
-        
+
         <div class="footer-column">
           <h3 class="footer-title">Shop</h3>
           <ul class="footer-links">
@@ -99,7 +125,7 @@
             <li><a href="#">Sale</a></li>
           </ul>
         </div>
-        
+
         <div class="footer-column">
           <h3 class="footer-title">About</h3>
           <ul class="footer-links">
@@ -109,7 +135,7 @@
             <li><a href="#">Careers</a></li>
           </ul>
         </div>
-        
+
         <div class="footer-column">
           <h3 class="footer-title">Help</h3>
           <ul class="footer-links">
@@ -120,23 +146,23 @@
           </ul>
         </div>
       </div>
-      
+
       <div class="footer-bottom">
         <p>&copy; <span id="current-year"></span> Minimal. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <div id="cart" class="cart-sidebar">
+  <div id="cart" class="cart-sidebar" aria-label="Shopping cart sidebar">
     <div class="cart-header">
       <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
-      <button id="close-cart" class="close-button">
+      <button id="close-cart" class="close-button" aria-label="Close cart">
         <i class="fas fa-times"></i>
       </button>
     </div>
-    
+
     <div id="cart-items" class="cart-items"></div>
-    
+
     <div class="cart-footer">
       <div class="cart-total">
         <span>Subtotal:</span>
@@ -146,9 +172,13 @@
       <button id="continue-shopping" class="continue-button">Continue Shopping</button>
     </div>
   </div>
-  
-  <div id="overlay" class="overlay"></div>
+
+  <div id="overlay" class="overlay" aria-hidden="true"></div>
 
   <script src="script.js"></script>
+  <script>
+    // Automatically update the year in the footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
