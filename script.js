@@ -34,7 +34,7 @@ const products = [
     name: "Wooden Cutting Board",
     price: 35.99,
     image:
-      "https://images.unsplash.com/photo-1545197079-5e6d3b23cf7a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://boazstore.com/wp-content/uploads/2021/11/DSC00076-800x578.jpg",
     category: "Kitchen",
     description: "Solid wood cutting board with beautiful grain patterns.",
   },
