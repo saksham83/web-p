@@ -1,21 +1,17 @@
-// Product and Category Data
 const products = [
   {
     id: 1,
     name: "Minimalist Desk Lamp",
     price: 49.99,
-    image:
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     category: "Home",
-    description:
-      "A sleek, adjustable desk lamp with warm lighting perfect for your workspace.",
+    description: "A sleek, adjustable desk lamp with warm lighting perfect for your workspace.",
   },
   {
     id: 2,
     name: "Organic Cotton T-shirt",
     price: 29.99,
-    image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     category: "Clothing",
     description: "Soft, comfortable t-shirt made from 100% organic cotton.",
   },
@@ -23,18 +19,15 @@ const products = [
     id: 3,
     name: "Ceramic Coffee Mug",
     price: 18.99,
-    image:
-      "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     category: "Kitchen",
-    description:
-      "Hand-crafted ceramic mug, perfect for your morning coffee or tea.",
+    description: "Hand-crafted ceramic mug, perfect for your morning coffee or tea.",
   },
   {
     id: 4,
     name: "Wooden Cutting Board",
     price: 35.99,
-    image:
-      "https://boazstore.com/wp-content/uploads/2021/11/DSC00076-800x578.jpg",
+    image: "https://boazstore.com/wp-content/uploads/2021/11/DSC00076-800x578.jpg",
     category: "Kitchen",
     description: "Solid wood cutting board with beautiful grain patterns.",
   },
@@ -42,28 +35,23 @@ const products = [
     id: 5,
     name: "Linen Bed Sheets",
     price: 89.99,
-    image:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     category: "Home",
-    description:
-      "Breathable, soft linen sheets for a comfortable night's sleep.",
+    description: "Breathable, soft linen sheets for a comfortable night's sleep.",
   },
   {
     id: 6,
     name: "Natural Fiber Tote Bag",
     price: 24.99,
-    image:
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     category: "Accessories",
-    description:
-      "Durable, eco-friendly tote bag perfect for shopping or daily use.",
+    description: "Durable, eco-friendly tote bag perfect for shopping or daily use.",
   },
   {
     id: 7,
     name: "Stainless Steel Water Bottle",
     price: 32.99,
-    image:
-      "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     category: "Accessories",
     description: "Insulated bottle keeps beverages hot or cold for hours.",
   },
@@ -71,8 +59,7 @@ const products = [
     id: 8,
     name: "Wool Knit Sweater",
     price: 79.99,
-    image:
-      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     category: "Clothing",
     description: "Cozy, warm sweater made from premium wool blend.",
   },
@@ -82,30 +69,25 @@ const categories = [
   {
     id: 1,
     name: "Home",
-    image:
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 2,
     name: "Kitchen",
-    image:
-      "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 3,
     name: "Clothing",
-    image:
-      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 4,
     name: "Accessories",
-    image:
-      "https://img.freepik.com/free-photo/top-view-accessoires-travel-with-women-clothing-concept-white_1921-107.jpg?semt=ais_hybrid&w=740",
+    image: "https://img.freepik.com/free-photo/top-view-accessoires-travel-with-women-clothing-concept-white_1921-107.jpg?semt=ais_hybrid&w=740",
   },
 ];
 
-// DOM elements
 const menuToggle = document.getElementById("menu-toggle");
 const mobileNav = document.getElementById("mobile-nav");
 const cartIcon = document.getElementById("cart-icon");
@@ -120,18 +102,14 @@ const yearElement = document.getElementById("current-year");
 const productsContainer = document.getElementById("products-container");
 const categoriesContainer = document.getElementById("categories-container");
 
-// Cart state
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-// Set current year in footer
 yearElement.textContent = new Date().getFullYear();
 
-// Mobile menu toggle
 menuToggle.addEventListener("click", () => {
   mobileNav.classList.toggle("active");
 });
 
-// Cart open/close
 function openCart() {
   cartSidebar.classList.add("active");
   overlay.classList.add("active");
@@ -150,14 +128,12 @@ closeCartBtn.addEventListener("click", closeCart);
 continueShopping.addEventListener("click", closeCart);
 overlay.addEventListener("click", closeCart);
 
-// Close mobile menu when clicking on a link
 document.querySelectorAll(".mobile-nav .nav-link").forEach((link) => {
   link.addEventListener("click", () => {
     mobileNav.classList.remove("active");
   });
 });
 
-// Cart functionality
 function updateCartCount() {
   const count = cart.reduce((total, item) => total + item.quantity, 0);
   cartCountElement.textContent = count;
@@ -242,20 +218,14 @@ function renderCart() {
       <div class="cart-item-details">
         <div class="cart-item-top">
           <h3 class="cart-item-name">${item.name}</h3>
-          <p class="cart-item-price">$${(item.price * item.quantity).toFixed(
-            2
-          )}</p>
+          <p class="cart-item-price">$${(item.price * item.quantity).toFixed(2)}</p>
         </div>
         <p class="cart-item-category">${item.category}</p>
         <div class="cart-item-controls">
           <div class="quantity-controls">
-            <button class="quantity-button decrease" data-id="${
-              item.id
-            }">-</button>
+            <button class="quantity-button decrease" data-id="${item.id}">-</button>
             <span class="quantity-count">${item.quantity}</span>
-            <button class="quantity-button increase" data-id="${
-              item.id
-            }">+</button>
+            <button class="quantity-button increase" data-id="${item.id}">+</button>
           </div>
           <button class="remove-button" data-id="${item.id}">Remove</button>
         </div>
@@ -265,7 +235,6 @@ function renderCart() {
     )
     .join("");
 
-  // Add event listeners to cart items
   document.querySelectorAll(".decrease").forEach((button) => {
     button.addEventListener("click", () => {
       const id = parseInt(button.getAttribute("data-id"));
@@ -296,7 +265,6 @@ function renderCart() {
   });
 }
 
-// Render products
 function renderProducts() {
   productsContainer.innerHTML = products
     .map(
@@ -322,7 +290,6 @@ function renderProducts() {
     )
     .join("");
 
-  // Add event listeners to products
   document.querySelectorAll(".add-to-cart").forEach((button) => {
     button.addEventListener("click", (e) => {
       e.preventDefault();
@@ -332,7 +299,6 @@ function renderProducts() {
   });
 }
 
-// Render categories
 function renderCategories() {
   categoriesContainer.innerHTML = categories
     .map(
@@ -349,12 +315,10 @@ function renderCategories() {
     .join("");
 }
 
-// Initialize
 function init() {
   renderProducts();
   renderCategories();
   updateCartCount();
 }
 
-// Run initialization
 document.addEventListener("DOMContentLoaded", init);
