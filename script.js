@@ -101,7 +101,7 @@ const categories = [
     id: 4,
     name: "Accessories",
     image:
-      "https://images.unsplash.com/photo-1523779917675-b6affb3fb6c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://portfolio.investmentguruindia.com/uploads/news/Fashion2.jpg",
   },
 ];
 
